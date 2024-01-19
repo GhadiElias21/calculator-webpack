@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script  src="./bundle.js" defer></script>
+  </head>
+  <body>
+    <div id="calculator">
+      <div id="result">
+        <div data-previous-operand class="previous-operand">0</div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-all-clear class="special_operations">AC</button>
+      <button data-change-sign  class="special_operations">+/-</button>
+      <button  data-operation class="special_operations">%</button>
+      <button data-operation class="operator">÷</button>
+
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operation class="operator" >
+        X
+      </button>
+
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operation class="operator" >
+        —
+      </button>
+
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operation class="operator">+</button>
+
+      <button data-number class="zero">0</button>
+      <button data-number>.</button>
+      <button data-equals class="operator equal">=</button>
+    </div>
+  </body>
+</html>
